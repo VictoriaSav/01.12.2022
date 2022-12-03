@@ -48,3 +48,32 @@
 // console.log(c);
 
 // ТИПЫ ДАННЫХ//
+// const isProgrammer = true;
+// const name = "Victa";
+// const age = 28;
+// let x;
+
+// console.log(typeof isProgrammer);
+// console.log(typeof name);
+// console.log(typeof age);
+// console.log(typeof x);
+// console.log(typeof null);
+
+//ПРИОРИТЕТ ОПЕРАТОРОВ//
+// const fullAge = 28;
+// const birthYear = 1994;
+// const currentYear = 2022;
+
+// const isFullAge = currentYear - birthYear >= fullAge;
+// console.log(isFullAge);
+
+//УСЛОВНЫЕ ОПЕРАТОРЫ
+const courseStatus = "pending"; // ready, fail. pending
+
+if (courseStatus === "ready") {
+  console.log("курс уже готов и его можно проходить");
+}
+
+if (courseStatus === "pending") {
+  console.log("курс пока находится в процессе разработки");
+}
