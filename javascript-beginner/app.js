@@ -68,12 +68,94 @@
 // console.log(isFullAge);
 
 //УСЛОВНЫЕ ОПЕРАТОРЫ
-const courseStatus = "pending"; // ready, fail. pending
+// const courseStatus = "fail"; // ready, fail. pending
 
-if (courseStatus === "ready") {
-  console.log("курс уже готов и его можно проходить");
-}
+// if (courseStatus === "ready") {
+//   console.log("курс уже готов и его можно проходить");
+// } else if (courseStatus === "pending") {
+//   console.log("курс пока находится в процессе разработки");
+// } else {
+//   console.log("курс не получился");
+// }
 
-if (courseStatus === "pending") {
-  console.log("курс пока находится в процессе разработки");
-}
+//const isReady = true;
+
+// if (isReady) {
+//   console.log("Всё готово!");
+// } else {
+//   console.log("Всё не готово!");
+// }
+// Тернарное выражение (то же самое что и выше)
+//isReady ? console.log("Всё готово!") : console.log("Всё не готово!");
+
+// const num1 = 42; //number
+// const num2 = "42"; //string текстовая строка
+// console.log(num1 === num2); //falce это значение правильное
+//console.log(num1 == num2); //true
+
+//БУЛЕВАЯ ЛОГИКА //
+//google - mdn логические операторы
+
+//Функции
+
+// function calculateAge(year) {
+//   return 2022 - year;
+// }
+
+// // const myAge = calculateAge(1994);
+// // console.log(myAge);
+
+// function logInfoAbout(name, year) {
+//   const age = calculateAge(year);
+
+//   if (age > 0) {
+//     console.log("Человек по имени" + name + "сейчас имеет возраст" + age);
+//   } else {
+//     console.log("Вообще-то это уже будущее");
+//   }
+// }
+
+// logInfoAbout("Victa", 1994);
+// logInfoAbout("Via", 1976);
+// logInfoAbout("Va", 2022);
+
+//Массивы
+// const cars = ["Мазда", "Мерседес", "Форд"];
+// // console.log(cars);
+// console.log(cars.length);
+// console.log(cars[1]);
+// console.log(cars[2]);
+// console.log(cars[0]);
+
+// cars[0] = "Porsche";
+// cars[cars.length] = "Mazda";
+// console.log(cars);
+
+//ЦИКЛЫ
+// const cars = ["Мазда", "Мерседес", "Форд", "Porsche"];
+
+// for (let i = 0; i < cars.length; i++) {
+//   const car = cars[i];
+//   console.log(car);
+// }
+
+//ОБЬЕКТЫ
+// const person = {
+//   firstName: "Victa",
+//   lastName: "Sav",
+//   year: 1994,
+//   languages: ["En", "Ukr", "Ru", "De"],
+//   hasHusbend: true,
+//   greet: function () {
+//     console.log("greet from person");
+//   },
+// };
+
+// console.log(person.firstName);
+// console.log(person["lastName"]);
+// const key = "year";
+// console.log(person[key]);
+// person.hasHusbend = true;
+// person.isProgrammer = true;
+// console.log(person);
+// person.greet();
